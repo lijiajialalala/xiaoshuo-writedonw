@@ -1,57 +1,49 @@
 # xiaoshuo-writedonw
 
-Fiction distillation and commercial web-novel planning workspace.
+小说创作、番茄平台研究、小说蒸馏和长篇写作流程仓库。
 
-Current scope is intentionally narrow. Phase 1 only builds the foundation for
-novel-side research and repeatable creation workflows:
+当前阶段不直接进入正文写作，先完成“平台机制 -> 题材方向 -> 单书模型 -> 样本验证 -> 立项决策”的闭环。目标是把小说方向选择和后续写作流程变成可追踪、可复盘、可迭代的工程，而不是靠一次性灵感或单篇 prompt。
 
-1. novel distillation thinking and schema drafts
-2. corpus / evidence organization rules
-3. route-aware author and book modeling
-4. clean-room replication discipline
-5. validation standards for readability, likeness, and continuation drive
+## 当前主线
 
-This repository does not need to solve the whole writing system on day one.
-The goal is to make later novel research, planning, drafting, and review
-version-controlled and reproducible, the same way `douyin-wenan` did for short
-video script work.
+1. 研究番茄平台机制、收益机制、AI 风险和合同强度。
+2. 围绕番茄可商业化题材建立样本池，优先看都市高武、都市异能、异常事件、749/斩神相邻方向。
+3. 先拆“单书层”，再拆“作者层”：一本书如何建立读者承诺、兑现承诺、升级承诺、转移承诺。
+4. 建立多颗粒度拆解：整书、卷/副本、章节、场景、段落语言。
+5. 在立项时同步考虑后续 AI 漫改、短剧改编、视觉化卖点和高频冲突场景。
 
-## Initial Layout
+## 入口文档
+
+- [docs/README.md](docs/README.md): 文档地图和当前工作流入口。
+- [docs/前期规划/](docs/前期规划/): 已整理的早期规划归档。
+- [docs/番茄专项研究/README.md](docs/番茄专项研究/README.md): 番茄平台专项研究入口。
+- [research/番茄专项/番茄都市高武样本拆解表_v1.md](research/番茄专项/番茄都市高武样本拆解表_v1.md): 第一版样本拆解主表。
+
+## 仓库结构
 
 ```text
-.agents/    skills and runtime author/source packages
-docs/       architecture notes, migration docs, and schemas in prose
-data/       repo-safe fixtures and small examples only
-research/   route tables, sample matrices, and working notes
-schemas/    structured templates for novel distillation
-scripts/    CLI utilities and batch helpers
-src/        library code if/when the pipeline becomes executable
-tests/      validation and regression tests
+.agents/    小说写作和蒸馏 runtime skill
+docs/       方法论、规划文档、平台研究结论
+data/       可入库的小样本和安全夹具，不放大体量原文
+research/   榜单样本、拆解表、研究过程记录
+schemas/    story bible、chapter card、validation report 等结构模板
+scripts/    后续自动化抓取、清洗、校验脚本
+src/        后续可执行流水线代码
+tests/      后续回归测试和质量验证
 ```
 
-## Phase 1 Goals
+## 第一阶段目标
 
-1. define the novel distillation object clearly
-2. separate author-layer and book-layer modeling
-3. define multi-granularity analysis:
-   - book
-   - arc / volume
-   - chapter
-   - scene
-4. define validation beyond likeness:
-   - continuation drive
-   - false-reveal detection
-   - pacing drop points
+1. 明确小说蒸馏到底要抽什么，不把短视频文案模型直接硬套到小说上。
+2. 分清单书层和作者层：单书解决“这本书怎么留人”，作者层解决“这个作者稳定怎么造书”。
+3. 建立番茄专项样本表，先用 20-30 本同赛道书做第一轮结构对比。
+4. 建立立项验证标准：开局留存、爽点密度、悬疑驱动、翻牌设计、对手阻力、改编潜力。
+5. 保持 clean-room 写作纪律：研究样本可以拆结构，正文创作不能搬运表达。
 
-## First Documents
+## 工作原则
 
-- `docs/01_小说蒸馏迁移思考.md`
-- `docs/02_前期规划目录优化建议.md`
-- `docs/前期规划/`
-
-## Repository Rules
-
-- Do not commit large raw manuscript corpora by default.
-- Keep repo content to docs, schemas, scripts, fixtures, and small examples.
-- Treat external corpora as source inputs, not as Git payloads.
-- Prefer clean-room drafting and evidence-backed updates over ad hoc prompting.
+- 不把大体量小说原文直接提交进仓库。
+- 研究结论必须能回到样本证据，不接受空泛“感觉很番茄”。
+- 先判断平台和读者承诺，再判断设定是否好玩。
+- 先跑小样本验证，再扩成系统模型。
+- 所有关键判断进入 Git，方便回滚和复盘。
