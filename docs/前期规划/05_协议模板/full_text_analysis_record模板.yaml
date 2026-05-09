@@ -1,0 +1,59 @@
+version: 1
+analysis_id: ""
+sample_id: ""
+created_at: ""
+
+rights_and_scope:
+  full_text_policy: "full_text_allowed"
+  rights_basis: ""
+  storage_path: ""
+  analysis_scope: "complete_work"
+  notes: ""
+
+quantitative_features:
+  total_chapters: 0
+  total_chars_estimate: 0
+  avg_chapter_chars: 0
+  dialogue_ratio_estimate: 0.0
+  narration_ratio_estimate: 0.0
+  description_ratio_estimate: 0.0
+  avg_sentence_length: 0.0
+  short_sentence_ratio: 0.0
+  long_sentence_ratio: 0.0
+
+structure_features:
+  opening_pattern: ""
+  common_chapter_function: []
+  hook_type_distribution: []
+  conflict_escalation_pattern: ""
+  payoff_pattern: ""
+  pacing_notes: ""
+
+prose_features:
+  narration_distance: ""
+  sentence_rhythm: ""
+  dialogue_style: ""
+  emotion_method: ""
+  description_density: ""
+  transition_style: ""
+
+anti_copy_boundary:
+  do_not_extract:
+    - "原文句子"
+    - "具体桥段"
+    - "具体人设"
+    - "具体世界观"
+    - "作者标志性表达"
+  allowed_outputs:
+    - "统计特征"
+    - "抽象风格参数"
+    - "结构机制"
+    - "文笔skill"
+    - "anti-skill"
+
+candidate_skills:
+  structure: []
+  prose: []
+  anti_ai: []
+
+notes: ""

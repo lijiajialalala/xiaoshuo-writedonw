@@ -1,0 +1,81 @@
+version: 1
+project_id: ""
+title_working: ""
+target_platform: ""
+genre: ""
+reader_promise: ""
+
+core_concept:
+  one_sentence_hook: ""
+  main_selling_point: ""
+  emotional_core: ""
+  forbidden_similarities:
+    - "不要复用任何已有作品的具体人设、桥段、主线骨架。"
+
+characters:
+  protagonist:
+    name: ""
+    role: ""
+    external_goal: ""
+    internal_need: ""
+    weakness: ""
+    hidden_resource: ""
+    speaking_style: ""
+    usual_actions: []
+    forbidden_behavior:
+      - "不能突然降智。"
+      - "不能为推动剧情做不符合性格的选择。"
+  heroine_or_key_partner:
+    name: ""
+    role: ""
+    external_goal: ""
+    relationship_to_protagonist: ""
+    speaking_style: ""
+    forbidden_behavior: []
+  antagonists:
+    - name: ""
+      role: ""
+      pressure_method: ""
+      credible_strength: ""
+      limitation: ""
+      exit_condition: ""
+
+world_rules:
+  social_order: ""
+  power_system: ""
+  money_system: ""
+  legal_or_family_rules: ""
+  hard_limits:
+    - "已经建立的规则不能随意打破。"
+    - "新能力、新资源、新关系必须提前铺垫。"
+
+plot_threads:
+  main_conflict:
+    current_stage: ""
+    end_state: ""
+  hidden_crisis:
+    description: ""
+    reveal_timing: ""
+  relationship_threads:
+    - name: ""
+      current_state: ""
+      next_change: ""
+  foreshadowing:
+    - clue_id: ""
+      planted_in_chapter: ""
+      expected_payoff_chapter: ""
+      status: "planned"
+
+chapter_state:
+  current_volume: ""
+  current_arc: ""
+  last_chapter_summary: ""
+  unresolved_questions: []
+  active_conflicts: []
+  recent_repeated_moves: []
+
+risk_notes:
+  platform_risks: []
+  originality_risks: []
+  continuity_risks: []
+

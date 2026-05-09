@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+
+# Runtime data
+runtime/
+outputs/
+tmp/
+logs/
+
+# Large local corpora stay outside git by default
+corpus/
+manuscripts/
+raw_data/

@@ -1,0 +1,81 @@
+version: 1
+sample_id: ""
+created_at: ""
+updated_at: ""
+
+source:
+  platform: ""
+  title: ""
+  author: ""
+  source_url: ""
+  source_kind: "public_platform_page"
+  credibility: "medium"
+  sample_scope: "opening_chapters"
+  chapters_observed: []
+  full_text_policy: "metadata_and_observation_only"
+  allowed_full_text_policies:
+    - "full_text_allowed"
+    - "metadata_and_observation_only"
+    - "link_only"
+    - "exclude"
+  rights_basis: ""
+
+classification:
+  genre: ""
+  subgenre: ""
+  target_reader: ""
+  status: ""
+  why_selected: ""
+
+opening_observation:
+  opening_hook: ""
+  protagonist_position: ""
+  initial_pressure: ""
+  core_conflict: ""
+  reader_promise: ""
+
+chapter_observation:
+  chapter_ending_hooks: []
+  emotion_curve: []
+  conflict_escalation: []
+  payoff_pattern: []
+  relationship_moves: []
+
+style_observation:
+  narration_distance: ""
+  sentence_rhythm: ""
+  dialogue_style: ""
+  dialogue_ratio_estimate: ""
+  description_density: ""
+  emotion_method: ""
+  chapter_length_pattern: ""
+  scene_transition_pattern: ""
+  ai_tone_or_low_quality_signals: []
+
+full_text_analysis:
+  enabled: false
+  text_storage_path: ""
+  storage_scope: ""
+  derived_features_only: true
+  sentence_length_stats: {}
+  dialogue_stats: {}
+  repeated_moves: []
+  hook_type_distribution: []
+
+risk_observation:
+  originality_risks: []
+  platform_sensitive_risks: []
+  do_not_copy:
+    - "具体人设"
+    - "具体桥段"
+    - "具体台词"
+    - "具体设定"
+    - "作者标志性文风"
+
+distillation:
+  candidate_structure_skills: []
+  candidate_prose_skills: []
+  candidate_anti_skills: []
+  evidence_refs: []
+
+notes: ""

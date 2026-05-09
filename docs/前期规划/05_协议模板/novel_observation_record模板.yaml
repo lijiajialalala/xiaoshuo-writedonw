@@ -1,0 +1,38 @@
+version: 1
+observation_id: ""
+sample_id: ""
+created_at: ""
+
+observation_type: "structure"
+allowed_types:
+  - structure
+  - prose
+  - anti_ai
+  - risk
+  - reader_response
+
+scope:
+  platform: ""
+  title: ""
+  chapter_range: ""
+  genre: ""
+
+finding:
+  feature_name: ""
+  observed_mechanism: ""
+  reader_effect: ""
+  evidence_note: ""
+
+distillation_boundary:
+  keep_as_general_mechanism: ""
+  must_not_reuse: []
+  originality_check: ""
+
+candidate_skill:
+  should_create_skill: false
+  skill_kind: ""
+  proposed_skill_name: ""
+  confidence: "low"
+
+notes: ""
+

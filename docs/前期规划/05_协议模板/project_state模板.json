@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "project_id": "",
+  "title_working": "",
+  "target_platform": "",
+  "status": "planning",
+  "created_at": "",
+  "updated_at": "",
+  "current_volume": "",
+  "current_arc": "",
+  "current_chapter": 0,
+  "min_words_per_chapter": 2500,
+  "target_words_per_chapter": 3500,
+  "writing_mode": "human_confirmed_serial",
+  "human_confirmation_required": true,
+  "files": {
+    "story_bible": "story_bible.yaml",
+    "style_bible": "style_bible.yaml",
+    "human_decision_log": "human_decision_log.yaml"
+  },
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "title": "",
+      "chapter_card_path": "chapter_cards/chapter_001.yaml",
+      "draft_path": "drafts/chapter_001.md",
+      "final_path": "final/chapter_001.md",
+      "status": "pending",
+      "human_plan_confirmed": false,
+      "human_final_accepted": false,
+      "word_count": null,
+      "structure_review_status": "pending",
+      "prose_review_status": "pending",
+      "risk_review_status": "pending",
+      "memory_updated": false,
+      "publish_status": "not_ready"
+    }
+  ],
+  "active_memory": {
+    "last_completed_chapter": 0,
+    "recent_chapter_summary_paths": [],
+    "active_conflicts": [],
+    "unresolved_promises": [],
+    "recent_repeated_moves": []
+  },
+  "risk_flags": []
+}
+

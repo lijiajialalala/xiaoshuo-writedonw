@@ -1,0 +1,51 @@
+version: 1
+project_id: ""
+chapter_number: 1
+chapter_title: ""
+draft_path: ""
+reviewed_at: ""
+
+word_count:
+  count: 0
+  target_min: 2500
+  target_max: 5000
+  pass: false
+
+structure_review:
+  pass: false
+  chapter_goal_met: false
+  conflict_present: false
+  payoff_or_reversal_present: false
+  ending_hook_present: false
+  issues: []
+
+memory_review:
+  pass: false
+  character_consistency_issues: []
+  world_rule_issues: []
+  foreshadowing_issues: []
+  relationship_state_issues: []
+
+prose_review:
+  pass: false
+  ai_tone_signals: []
+  repeated_phrases: []
+  abstract_emotion_issues: []
+  dialogue_issues: []
+  style_bible_violations: []
+
+platform_risk_review:
+  pass: false
+  low_quality_ai_signals: []
+  similarity_or_wash_risks: []
+  sensitive_content_risks: []
+  workroom_or_batch_signals: []
+
+required_fixes:
+  - ""
+
+human_acceptance:
+  status: "pending"
+  accepted_by: ""
+  acceptance_notes: ""
+

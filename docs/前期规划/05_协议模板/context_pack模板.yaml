@@ -1,0 +1,49 @@
+version: 1
+project_id: ""
+chapter_number: 1
+generated_at: ""
+
+project_core:
+  title_working: ""
+  target_platform: ""
+  reader_promise: ""
+  current_arc_goal: ""
+
+recent_context:
+  last_3_chapter_summaries: []
+  unresolved_questions: []
+  active_conflicts: []
+
+character_state:
+  - name: ""
+    current_goal: ""
+    current_relationships: []
+    knows: []
+    does_not_know: []
+    cannot_do: []
+
+continuity_constraints:
+  world_rules_to_respect: []
+  foreshadowing_to_remember: []
+  promises_to_pay_attention_to: []
+  facts_not_to_contradict: []
+
+style_constraints:
+  tone: ""
+  sentence_rhythm: ""
+  dialogue_style: ""
+  forbidden_ai_phrases: []
+  preferred_moves: []
+
+chapter_task:
+  chapter_goal: ""
+  emotion_curve: []
+  required_beats: []
+  ending_hook: ""
+  human_confirmed_direction: ""
+
+avoid_this_chapter:
+  repeated_moves: []
+  platform_risks: []
+  similarity_risks: []
+

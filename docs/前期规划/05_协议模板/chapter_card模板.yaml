@@ -1,0 +1,67 @@
+version: 1
+project_id: ""
+chapter_number: 1
+chapter_title: ""
+target_platform: ""
+
+position:
+  volume: ""
+  arc: ""
+  previous_chapter_summary: ""
+  next_chapter_need: ""
+
+chapter_goal:
+  plot_goal: ""
+  character_goal: ""
+  reader_goal: ""
+
+reader_emotion_curve:
+  opening: ""
+  middle: ""
+  payoff: ""
+  ending: ""
+
+structure_plan:
+  core_event: ""
+  conflict_source: ""
+  pressure_method: ""
+  reversal_or_payoff: ""
+  ending_hook: ""
+  scene_list: []
+  expected_word_count: 3500
+
+characters_in_chapter:
+  - name: ""
+    current_state: ""
+    knows: []
+    does_not_know: []
+    relationship_change: ""
+    forbidden_behavior: []
+
+memory_constraints:
+  must_remember: []
+  unresolved_promises_to_touch: []
+  continuity_risks: []
+  recent_moves_to_avoid: []
+
+style_constraints:
+  tone: ""
+  dialogue_requirements: []
+  forbidden_ai_phrases: []
+  prose_skills_to_apply: []
+
+originality_and_platform_risk:
+  structure_skill_refs: []
+  similarity_risks: []
+  platform_risks: []
+  must_not_do: []
+
+human_questions:
+  - ""
+
+human_confirmation:
+  status: "pending"
+  confirmed_direction: ""
+  rejected_options: []
+  notes: ""
+

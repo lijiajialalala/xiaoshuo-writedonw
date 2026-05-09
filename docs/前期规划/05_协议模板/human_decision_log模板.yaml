@@ -1,0 +1,16 @@
+version: 1
+project_id: ""
+decisions:
+  - decision_id: ""
+    created_at: ""
+    scope: "chapter_plan"
+    chapter_number: 1
+    ai_proposal_summary: ""
+    human_feedback: ""
+    selected_direction: ""
+    rejected_options: []
+    reason: ""
+    required_revision: ""
+    final_result_path: ""
+    evidence_value: "shows human creative control"
+
