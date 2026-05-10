@@ -1,0 +1,86 @@
+# 前10章证据快拆模板
+# 用途：P2/L1。每本书复制一份，每章复制 chapter_records 的单项。
+
+book_id: "S002"
+title: "749局：九处特案调查科"
+platform: "番茄小说"
+sampled_at: "2026-05-10" # YYYY-MM-DD
+sample_role: "mid_sample" # head_sample / mid_sample / counter_preference_sample / beta_sample
+chapters_read: ""
+extractor: ""
+
+book_level_observation:
+  intro_promise: "749 小队处理城市超自然/灵异/诡异凶杀案。"
+  suspected_route_candidate: ""
+  primary_reader_promise: ""
+  secondary_promises: []
+  platform_fit_note: ""
+  initial_similarity_risk: ""
+  editor_gate_note: "" # 编辑视角：题材/书名/简介/卖点/开篇是否有签约或直发验证潜力
+  outline_learning_note: "" # 从前10章反推：这本书是否有第一卷/长线大纲能力
+  continuity_memory_note: "" # 长篇一致性需求：后续哪些人物状态、能力、资源、伏笔、关系、规则必须外部化记录
+  ai_low_quality_risk: "" # 是否有AI味、低质水文、逻辑拼凑、人物不一致、批量生产感
+
+chapter_records:
+  - chapter_no: 1
+    chapter_title: ""
+    opening_state: ""
+    reader_promise: ""
+    protagonist_goal: ""
+    trigger_event: ""
+    obstacle: ""
+    obstacle_type: "" # enemy / rule / organization / resource / relationship / ignorance / cost / self_flaw
+    protagonist_action: ""
+    information_reveal: ""
+    payoff: ""
+    state_change: ""
+    ending_hook: ""
+    next_chapter_pressure: ""
+    platform_signal: "" # 读完率 / 追读 / 付费预期 / 改编画面 / 编辑审稿点
+    editor_review_signal: "" # 编辑会不会继续看：卖点 / 冲突 / 逻辑 / 行文 / 主线 / 人设
+    outline_signal: "" # 是否透露长期主线、第一卷方向、资源循环、未解问题
+    continuity_memory_signal: "" # 是否出现后续必须记忆的状态变量：能力限制、资源变化、关系变化、伏笔、角色知情范围
+    ai_quality_signal: "" # 是否像AI水文：空泛、重复、突兀、逻辑断裂、人物工具化
+    evidence_quote_or_summary: ""
+    transfer_boundary: "" # transferable_mechanism / observe_only / forbidden_shape
+    risk_note: ""
+
+chapter_motion_summary:
+  first_3_chapters:
+    promise_setup: ""
+    immediate_payoff: ""
+    protagonist_engine: ""
+    failure_or_gap: ""
+  first_10_chapters:
+    mini_loop: ""
+    obstacle_escalation: ""
+    reveal_or_flip: ""
+    strongest_next_read_hook: ""
+    weakest_link: ""
+  outline_readiness:
+    first_volume_hint: ""
+    long_term_pressure: ""
+    resource_or_relationship_cycle: ""
+    unresolved_core_questions: []
+    sustainability_risk: ""
+  continuity_memory_requirements:
+    state_variables_to_track: [] # 人物状态、能力、资源、身份暴露、组织权限等
+    foreshadowing_or_promises_to_track: [] # 已埋伏笔、读者承诺、未回收问题
+    relationship_or_knowledge_state_to_track: [] # 角色关系变化、谁知道什么、谁误判什么
+    repetition_or_style_drift_risk: "" # 长篇中可能重复的冲突、爽点、动作表达、章末钩子或文风漂移
+    memory_system_trigger_note: "" # 后续是否需要 story_bible / style_bible / context_pack 的具体理由
+  editor_gate_summary:
+    title_intro_package: ""
+    opening_signing_potential: ""
+    platform_fit: ""
+    ai_or_low_quality_risk: ""
+    similarity_or_plagiarism_risk: ""
+    decision: "" # proceed / revise / stop / insufficient_evidence
+
+route_candidate_decision:
+  route_candidate_name: ""
+  evidence_for: []
+  evidence_against: []
+  counterexample_needed: ""
+  decision: "" # enter_L2 / observe / reject / revise_extractor
+  decision_reason: ""
