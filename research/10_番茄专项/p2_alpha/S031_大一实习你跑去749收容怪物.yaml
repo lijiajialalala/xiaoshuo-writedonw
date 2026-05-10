@@ -1,21 +1,21 @@
 # 前10章证据快拆模板
 # 用途：P2/L1。每本书复制一份，每章复制 chapter_records 的单项。
 
-book_id: "S002"
-title: "749局：九处特案调查科"
+book_id: "S031"
+title: "大一实习，你跑去749收容怪物"
 platform: "番茄小说"
 sampled_at: "2026-05-10" # YYYY-MM-DD
-sample_role: "mid_sample" # head_sample / mid_sample / counter_preference_sample / beta_sample
+sample_role: "source_lineage_sample" # source_lineage_sample / current_hot_sample / completed_system_sample / cross_route_control_sample / counter_preference_sample / beta_sample / observe_only
 chapters_read: ""
 extractor: ""
 
 book_level_observation:
-  intro_promise: "749 小队处理城市超自然/灵异/诡异凶杀案。"
+  intro_promise: "749、怪物收容、无女主、杀伐果断；主角加入异常收容体系，通过收容怪物获得成长和事件推进。"
   suspected_route_candidate: ""
   primary_reader_promise: ""
   secondary_promises: []
-  platform_fit_note: ""
-  initial_similarity_risk: ""
+  platform_fit_note: "用户标记为 749/收容方向开山样本；番茄页面显示作者我爱罗的沙、连载中、318.0 万字、最近更新到第 1440 章，适合校准异常收容路线的源头机制。"
+  initial_similarity_risk: "高。源头样本只允许提取抽象机制，禁止迁移 749 组织形状、收容桥段顺序、怪物设计、能力来源和标志性开局。"
   editor_gate_note: "" # 编辑视角：题材/书名/简介/卖点/开篇是否有签约或直发验证潜力
   outline_learning_note: "" # 从前10章反推：这本书是否有第一卷/长线大纲能力
   continuity_memory_note: "" # 长篇一致性需求：后续哪些人物状态、能力、资源、伏笔、关系、规则必须外部化记录

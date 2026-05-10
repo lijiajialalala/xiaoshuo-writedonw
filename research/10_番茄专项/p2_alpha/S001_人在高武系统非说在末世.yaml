@@ -5,7 +5,7 @@ book_id: "S001"
 title: "人在高武，系统非说在末世"
 platform: "番茄小说"
 sampled_at: "2026-05-10" # YYYY-MM-DD
-sample_role: "head_sample" # head_sample / mid_sample / counter_preference_sample / beta_sample
+sample_role: "current_hot_sample" # source_lineage_sample / current_hot_sample / completed_system_sample / cross_route_control_sample / counter_preference_sample / beta_sample / observe_only
 chapters_read: ""
 extractor: ""
 

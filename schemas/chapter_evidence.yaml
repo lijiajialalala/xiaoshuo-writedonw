@@ -5,7 +5,7 @@ book_id: ""
 title: ""
 platform: ""
 sampled_at: "" # YYYY-MM-DD
-sample_role: "" # head_sample / mid_sample / counter_preference_sample / beta_sample
+sample_role: "" # source_lineage_sample / current_hot_sample / completed_system_sample / cross_route_control_sample / counter_preference_sample / beta_sample / observe_only
 chapters_read: ""
 extractor: ""
 
