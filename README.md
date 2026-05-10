@@ -63,3 +63,4 @@ tests/      后续回归测试和质量验证
 - [schemas/chapter_evidence.yaml](schemas/chapter_evidence.yaml): P2 前 10 章证据快拆模板。
 - [schemas/content_kernel_card.md](schemas/content_kernel_card.md): 内容内核卡模板。
 - [schemas/blind_review_report.md](schemas/blind_review_report.md): 盲审 / 追读诊断报告模板。
+- [schemas/risk_loop_register.md](schemas/risk_loop_register.md): 策略漏洞循环登记模板。
