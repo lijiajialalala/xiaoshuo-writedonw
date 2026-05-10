@@ -1,21 +1,21 @@
 # 前10章证据快拆模板
 # 用途：P2/L1。每本书复制一份，每章复制 chapter_records 的单项。
 
-book_id: "S001"
-title: "人在高武，系统非说在末世"
+book_id: "S033"
+title: "时停起手，邪神也得给我跪下！"
 platform: "番茄小说"
 sampled_at: "2026-05-10" # YYYY-MM-DD
-sample_role: "current_hot_sample" # source_lineage_sample / current_hot_sample / completed_system_sample / cross_route_control_sample / counter_preference_sample / beta_sample / observe_only
+sample_role: "official_rank_hot_sample" # source_lineage_sample / official_rank_hot_sample / official_rank_system_sample / current_hot_sample / completed_system_sample / cross_route_control_sample / counter_preference_sample / top_benchmark_observe / beta_sample / observe_only
 chapters_read: ""
 extractor: ""
 
 book_level_observation:
-  intro_promise: "系统误判高武世界为末世，主角用错位系统拿奖励升级。"
+  intro_promise: "时间静止、末世灾变、异能、嚣张爽感；主角在高压环境中用可累积的时停能力建立压制性优势。"
   suspected_route_candidate: ""
   primary_reader_promise: ""
   secondary_promises: []
-  platform_fit_note: ""
-  initial_similarity_risk: ""
+  platform_fit_note: "番茄男频阅读榜·都市高武第 2；榜单显示在读 245.7 万。番茄书页显示作者六个葫芦、连载中、183.9 万字，适合作为当前官方榜单高热样本。"
+  initial_similarity_risk: "高。只允许提取高概念能力如何制造承诺、压迫、兑现和章末钩子的抽象机制；禁止迁移时停能力设定、末世具体桥段、主角口吻、邪神/敌人形状和名场面路径。"
   editor_gate_note: "" # 编辑视角：题材/书名/简介/卖点/开篇是否有签约或直发验证潜力
   outline_learning_note: "" # 从前10章反推：这本书是否有第一卷/长线大纲能力
   continuity_memory_note: "" # 长篇一致性需求：后续哪些人物状态、能力、资源、伏笔、关系、规则必须外部化记录

@@ -1,21 +1,21 @@
 # 前10章证据快拆模板
 # 用途：P2/L1。每本书复制一份，每章复制 chapter_records 的单项。
 
-book_id: "S032"
-title: "高武：系统兜底，坚持就能无敌！"
+book_id: "S034"
+title: "天赋差？我一块钱买一年修为！"
 platform: "番茄小说"
 sampled_at: "2026-05-10" # YYYY-MM-DD
-sample_role: "completed_system_sample" # source_lineage_sample / current_hot_sample / completed_system_sample / cross_route_control_sample / counter_preference_sample / beta_sample / observe_only
+sample_role: "official_rank_system_sample" # source_lineage_sample / official_rank_hot_sample / official_rank_system_sample / current_hot_sample / completed_system_sample / cross_route_control_sample / counter_preference_sample / top_benchmark_observe / beta_sample / observe_only
 chapters_read: ""
 extractor: ""
 
 book_level_observation:
-  intro_promise: "穿越高武世界后家境差、天赋差，主角在生存压力下依靠兜底系统和坚持修炼变强。"
+  intro_promise: "高武系统、氪金修炼、天赋差逆袭；主角用低成本购买长期修炼成果，形成直观升级爽点。"
   suspected_route_candidate: ""
   primary_reader_promise: ""
   secondary_promises: []
-  platform_fit_note: "番茄页面显示作者有枣没枣、已完结、138.2 万字、531 章；适合校准高武系统爽文的完本长线结构，热度证据后续补 App/榜单截图。"
-  initial_similarity_risk: "中。可学习生存压力、资源循环、升级兑现和长期压力的抽象机制；禁止迁移具体系统表现、家境压迫桥段、训练路径和角色组合。"
+  platform_fit_note: "番茄男频阅读榜·都市高武第 6；榜单显示在读 82.0 万。番茄书页显示作者天徙、连载中、112.9 万字，适合作为官方榜单高武系统升级样本。"
+  initial_similarity_risk: "高。只允许提取资源换成长、前期弱势压力、升级兑现和系统循环的抽象机制；禁止迁移一块钱买修为设定、具体系统规则、开局羞辱路径和升级节点顺序。"
   editor_gate_note: "" # 编辑视角：题材/书名/简介/卖点/开篇是否有签约或直发验证潜力
   outline_learning_note: "" # 从前10章反推：这本书是否有第一卷/长线大纲能力
   continuity_memory_note: "" # 长篇一致性需求：后续哪些人物状态、能力、资源、伏笔、关系、规则必须外部化记录
