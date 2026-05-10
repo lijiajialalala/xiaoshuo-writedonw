@@ -56,7 +56,8 @@
 P0 平台/赛道/合规假设
 -> P0.6 三平台机制与收益研究
 -> P1 L0 样本池
--> P2 前 10 章快拆校准批次
+-> P2-alpha 3 本前 10 章校准批次
+-> P2-beta 10-15 本前 10 章正式快拆
 -> P2.5 route_candidate 与跨题材基础逻辑候选判断
 -> P3 第一卷/事件链深拆
 -> P4 内容内核卡
@@ -69,7 +70,8 @@ P0 平台/赛道/合规假设
 
 - 新模块不能直接展开，先按 `active_now`、`always_on_gate`、`interface_now`、`parked_until_trigger`、`do_not_do_now` 归类。
 - 不只拆都市高武，也要补跨题材基础叙事逻辑样本。
-- P2 三本校准批次先验证 `schemas/chapter_evidence.yaml` 能不能产出 route_candidate。
+- P2-alpha 三本校准批次先验证 `schemas/chapter_evidence.yaml` 能不能产出 route_candidate；未通过不得扩到 P2-beta。
+- P2-alpha 必须覆盖头部/强样本、中腰部/普通样本、主观不喜欢但平台有存在感的反偏好样本。
 - 如果 P2 字段不能承载底层逻辑，先回修提取协议。
 - 如果 clean-room 前 3 章跑不动，说明承诺、因果、阻力、文风或相似风险至少有一层没拆对。
 

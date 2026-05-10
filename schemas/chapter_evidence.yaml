@@ -5,6 +5,7 @@ book_id: ""
 title: ""
 platform: ""
 sampled_at: "" # YYYY-MM-DD
+sample_role: "" # head_sample / mid_sample / counter_preference_sample / beta_sample
 chapters_read: ""
 extractor: ""
 
