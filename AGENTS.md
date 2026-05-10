@@ -11,6 +11,7 @@
 - 总入口：[README.md](README.md)
 - 文档地图：[docs/README.md](docs/README.md)
 - 当前路线：[docs/00_总控/00_当前总控路线图.md](docs/00_总控/00_当前总控路线图.md)
+- 模块调度：[docs/00_总控/07_模块依赖与推进顺序.md](docs/00_总控/07_模块依赖与推进顺序.md)
 - agent 行为纪律：[docs/00_总控/05_agent工作纪律.md](docs/00_总控/05_agent工作纪律.md)
 - 编辑审稿门：[docs/00_总控/06_编辑审稿门与大纲准备.md](docs/00_总控/06_编辑审稿门与大纲准备.md)
 - 合规边界：[docs/00_总控/04_合规与相似风险边界.md](docs/00_总控/04_合规与相似风险边界.md)
@@ -66,6 +67,7 @@ P0 平台/赛道/合规假设
 
 当前重点：
 
+- 新模块不能直接展开，先按 `active_now`、`always_on_gate`、`interface_now`、`parked_until_trigger`、`do_not_do_now` 归类。
 - 不只拆都市高武，也要补跨题材基础叙事逻辑样本。
 - P2 三本校准批次先验证 `schemas/chapter_evidence.yaml` 能不能产出 route_candidate。
 - 如果 P2 字段不能承载底层逻辑，先回修提取协议。
