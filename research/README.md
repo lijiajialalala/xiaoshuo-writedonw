@@ -1,13 +1,15 @@
 # Research
 
-This directory stores route tables, sample pools, score sheets, and working
-analysis that are safe to keep in Git.
+这个目录放过程数据：样本池、榜单观察、拆解表、横向归纳表和阶段研究记录。
 
-Suggested future subfolders:
+## 当前目录
 
 ```text
-authors/      author-level studies
-books/        single-book promise and structure studies
-routes/       route comparisons across books or authors
-platforms/    Fanqie and adaptation-side platform research
+10_番茄专项/    当前番茄都市高武/异常事件方向样本池
 ```
+
+## 存放规则
+
+1. `docs/` 放结论和规格，`research/` 放过程数据。
+2. 样本表记录结构观察，不复制大段正文。
+3. 任何样本判断都要记录来源、采样日期和可能偏差。
