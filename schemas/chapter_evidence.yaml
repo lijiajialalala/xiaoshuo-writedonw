@@ -1,0 +1,58 @@
+# 前10章证据快拆模板
+# 用途：P2/L1。每本书复制一份，每章复制 chapter_records 的单项。
+
+book_id: ""
+title: ""
+platform: ""
+sampled_at: "" # YYYY-MM-DD
+chapters_read: ""
+extractor: ""
+
+book_level_observation:
+  intro_promise: ""
+  suspected_route_candidate: ""
+  primary_reader_promise: ""
+  secondary_promises: []
+  platform_fit_note: ""
+  initial_similarity_risk: ""
+
+chapter_records:
+  - chapter_no: 1
+    chapter_title: ""
+    opening_state: ""
+    reader_promise: ""
+    protagonist_goal: ""
+    trigger_event: ""
+    obstacle: ""
+    obstacle_type: "" # enemy / rule / organization / resource / relationship / ignorance / cost / self_flaw
+    protagonist_action: ""
+    information_reveal: ""
+    payoff: ""
+    state_change: ""
+    ending_hook: ""
+    next_chapter_pressure: ""
+    platform_signal: "" # 读完率 / 追读 / 付费预期 / 改编画面 / 编辑审稿点
+    evidence_quote_or_summary: ""
+    transfer_boundary: "" # transferable_mechanism / observe_only / forbidden_shape
+    risk_note: ""
+
+chapter_motion_summary:
+  first_3_chapters:
+    promise_setup: ""
+    immediate_payoff: ""
+    protagonist_engine: ""
+    failure_or_gap: ""
+  first_10_chapters:
+    mini_loop: ""
+    obstacle_escalation: ""
+    reveal_or_flip: ""
+    strongest_next_read_hook: ""
+    weakest_link: ""
+
+route_candidate_decision:
+  route_candidate_name: ""
+  evidence_for: []
+  evidence_against: []
+  counterexample_needed: ""
+  decision: "" # enter_L2 / observe / reject / revise_extractor
+  decision_reason: ""

@@ -1,0 +1,41 @@
+# 小说样本记录模板
+# 用途：L0 样本池登记。只记录可追踪元数据和入选理由，不做剧情归纳。
+
+book_id: ""
+title: ""
+author: ""
+platform: ""
+source_url: ""
+sampled_at: "" # YYYY-MM-DD
+status: "" # 连载 / 完结 / 太监 / 未知
+word_count: ""
+category: ""
+tags: []
+
+ranking_evidence:
+  list_name: ""
+  rank: ""
+  captured_at: "" # YYYY-MM-DD
+  evidence_url_or_note: ""
+  confidence: "" # high / medium / low
+
+intro_promise:
+  raw_intro_summary: ""
+  visible_reader_promises: [] # 爽 / 悬疑 / 智斗 / 成长 / 关系 / 身份 / 世界观 / 生存压力
+  suspected_primary_promise: ""
+  uncertainty: ""
+
+selection:
+  why_selected: ""
+  expected_route_candidate: ""
+  possible_bias: ""
+  access_scope: "" # 简介 / 前10章 / 前30章 / 第一卷 / 全文
+
+risk_boundary:
+  high_identification_assets_to_avoid: []
+  initial_similarity_risk: "" # high / medium / low
+  notes: ""
+
+decision:
+  l0_decision: "" # observe / enter_L1 / reject
+  decision_reason: ""

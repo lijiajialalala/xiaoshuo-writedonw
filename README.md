@@ -22,6 +22,7 @@
 - [docs/30_平台研究/README.md](docs/30_平台研究/README.md): 番茄、七猫、起点投稿路径、收益机制和平台生产策略。
 - [docs/20_小说蒸馏方法/03_小说提取归纳总模型.md](docs/20_小说蒸馏方法/03_小说提取归纳总模型.md): 小说提取、归纳和生产运行包的总模型。
 - [docs/20_小说蒸馏方法/04_P2小说证据提取器协议.md](docs/20_小说蒸馏方法/04_P2小说证据提取器协议.md): P2 前 10 章证据抽取操作手册。
+- [docs/20_小说蒸馏方法/05_小说内容内核发现系统操作方案.md](docs/20_小说蒸馏方法/05_小说内容内核发现系统操作方案.md): 小说内容内核发现、颗粒度矩阵、风险循环和 clean-room 诊断路线。
 - [docs/10_番茄专项/02_证据提取与归纳规格.md](docs/10_番茄专项/02_证据提取与归纳规格.md): 番茄样本提取和归纳规格。
 - [research/10_番茄专项/00_P0_假设登记.md](research/10_番茄专项/00_P0_假设登记.md): 当前平台、赛道和结构假设登记表。
 - [research/10_番茄专项/番茄都市高武样本拆解表_v1.md](research/10_番茄专项/番茄都市高武样本拆解表_v1.md): 第一版样本拆解主表。
@@ -55,3 +56,10 @@ tests/      后续回归测试和质量验证
 - 先判断平台和读者承诺，再判断设定是否好玩。
 - 先跑小样本验证，再扩成系统模型。
 - 所有关键判断进入 Git，方便回滚和复盘。
+
+## 当前执行模板
+
+- [schemas/sample_record.yaml](schemas/sample_record.yaml): L0 样本池登记模板。
+- [schemas/chapter_evidence.yaml](schemas/chapter_evidence.yaml): P2 前 10 章证据快拆模板。
+- [schemas/content_kernel_card.md](schemas/content_kernel_card.md): 内容内核卡模板。
+- [schemas/blind_review_report.md](schemas/blind_review_report.md): 盲审 / 追读诊断报告模板。
