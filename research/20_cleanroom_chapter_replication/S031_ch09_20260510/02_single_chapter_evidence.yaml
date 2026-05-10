@@ -1,0 +1,87 @@
+run_id: "S031_ch09_20260510"
+book_id: "S031"
+title: "大一实习，你跑去749收容怪物"
+target_chapter: 9
+target_chapter_title: "第一个任务，灭门惨案，黑老太太"
+source_open_status: "checked"
+source_scope: "第8章 / 第9章 / 第10章"
+source_text_location: "D:\\小说创作\\书本源数据\\大一实习，你跑去749收容怪物\\all.txt"
+copyright_policy: "No full source chapter or long quote is stored in Git; only structural summaries and mechanisms."
+
+chapter_body:
+  chapter_entry: "接第8章考核完美、获得高层关注和奖励后进入；读者期待奖励如何变成真实战力。"
+  scene_count: 4
+  scene_switch:
+    - "后勤部选功法：由邓部长推荐资源启动。"
+    - "回宿舍闭关：由资源使用切换到修炼突破。"
+    - "任务 APP 选择：由战力升级切换到正式任务入口。"
+    - "论坛招募辅调：由任务规则切换到下一章搭档和调查。"
+  paragraph_breath: "短段推进为主，设定信息拆散写；每段说明后回到主角判断或行动，避免连续百科段。"
+  narrative_distance: "第三人称贴主角利益判断；外部动作后接主角对资源、任务价值和风险的即时评估。"
+  action_dialogue_psychology_ratio: "前段对话较多，中段动作/观想画面较多，后段任务信息和主角判断较多；心理主要是实用判断，不是抒情。"
+  exposition_method: "功法、境界、任务和怪物信息都通过主角当下要选、要练、要接任务的动作进入。"
+  chapter_exit: "停在组织论坛招募辅调引发围观，交给下一章去兑现搭档选择和案件出发。"
+
+chapter_motion:
+  protagonist_micro_goal: "把考核奖励和组织照拂转成战力，并接取第一个正式任务。"
+  trigger_event: "邓部长带主角进入后勤选功法，并提供高价值资源建议。"
+  conflict_unit: "资源选择与任务制度约束：主角需要选对功法、快速突破，但正式任务要求两人以上。"
+  opposition_micro_action: "本章阻力不是强敌，而是组织资源和任务规则：普通功法选择复杂，正式任务不能单人出发。"
+  protagonist_response: "接受高层建议、闭关突破、主动在组织频道招募辅调。"
+  information_release:
+    - "高价值功法资源不是普通书架功法。"
+    - "主角突破并形成新的攻击性能力。"
+    - "正式任务有奖励、境界建议、领队/辅调分工。"
+    - "第一个案件有灭门、怪物痕迹和民俗身份。"
+  payoff_type:
+    - "power_upgrade"
+    - "resource_unlock"
+    - "mission_entry"
+    - "status_visibility"
+  resource_power_delta: "获得高价值修炼资源，消耗奖励丹药，突破境界，形成新攻击手段，获得第一个正式任务入口。"
+  visibility_legitimacy_delta: "主角从考核强新人变成组织内部公开出名的人；以实习身份公开招募辅调，身份影响力开始兑现。"
+  ending_hook: "公开招募辅调引发组织频道围观，读者想看谁会来、如何出发、案件怎么查。"
+
+reveal_flip:
+  open_question: "考核奖励会如何兑现？主角何时进入第一个正式任务？"
+  withheld_info: "新能力实战效果、案件真相、辅调身份。"
+  visible_clue: "部长照拂、任务 APP、正式任务两人规则、案件嫌疑信息入口。"
+  false_assumption: "读者可能以为本章只是领奖/修炼章。"
+  reveal_or_flip: "本章中后段翻成第一个正式案件入口，并用组队规则逼出下一章搭档。"
+  flip_effect_on_future: "剧情从组织福利/修炼转入任务调查；下一章必须处理辅调和案情。"
+
+minimum_renderer:
+  sentence_texture: "短句、直接判断、口语化利益评估；不要写成华丽修仙散文。"
+  dialogue_texture: "长辈资源角色语气温和但功能明确；主角回应简洁、懂礼但目标感强。"
+  inner_voice: "以内心盘算和收益判断为主，少抒情。"
+  description_texture: "修炼画面可以有短暂强视觉，但必须很快落回能力功能和行动。"
+  rhythm_defects: "允许重复强调资源值钱、组织福利、主角觉得赚；这是爽文资源兑现的口播式冗余。"
+  ai_slop_alarm:
+    - "连续解释世界观，不让主角行动。"
+    - "把功法选择写成设定百科。"
+    - "用空泛词写突破，如‘气息暴涨、实力大增’但不说明后续行动。"
+    - "章末只写‘新的冒险开始了’这类泛钩子。"
+
+transfer_boundary:
+  transferable_mechanisms:
+    - "上一轮胜利必须兑现成真实资源。"
+    - "资源必须在本章内转成能力、权限或下一行动。"
+    - "能力升级后立刻接任务验证。"
+    - "组织规则制造轻阻力，逼出搭档、权限或流程。"
+    - "章末落在公开身份变化和下一行动入口。"
+  prohibited_shapes:
+    - "749 名称、APP 和贡献点制度。"
+    - "飞熊观想图、开窍丹、照璇境、飞熊扑杀法。"
+    - "黑老太太、灭门案、啃脸等案件内容。"
+    - "邓部长赠资源的具体人物关系。"
+    - "论坛喊话原路径和原话。"
+  hard_risk: "Do not reuse source organization, power, monster, case, task reward values, or scene order."
+  soft_risk: "Even with renamed assets, '官方组织 + 后勤长辈送观想图 + 接黑老太太任务 + 论坛招辅调' would read as the same content shape."
+
+editor_gate:
+  platform_fit: "番茄式任务制升级章，能把考核爽点延续到正式任务。"
+  readability_risk: "中。资源和任务信息较多，必须用主角行动串起来。"
+  ai_low_quality_risk: "中高。AI 容易写成福利说明书、功法百科或任务列表。"
+  similarity_risk: "高。只允许抽象机制迁移。"
+  decision: "proceed_for_diagnostic_only"
+
