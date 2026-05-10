@@ -168,15 +168,35 @@ research/10_番茄专项/p2_alpha/00_P2-alpha复盘.md
 
 停止后先回修 P2 协议或更换样本组合，不进入 P2-beta。
 
-## 10. 当前下一步
+## 10. 当前状态与下一步
 
-按顺序执行：
+截至 2026-05-10，三本 P2-alpha 前 10 章证据包已完成：
 
 ```text
-1. 创建 p2_alpha 目录。
-2. 复制 3 份 chapter_evidence.yaml。
-3. 先填 S033。
-4. 再填 S031。
-5. 最后填 S034。
-6. 做 00_P2-alpha复盘.md。
+S031：官方异常组织收容成长路线
+S033：有限超规格能力公开压力局
+S034：资源燃料型系统升级路线
+```
+
+复盘文件：
+
+```text
+research/10_番茄专项/p2_alpha/00_P2-alpha复盘.md
+```
+
+复盘结论：
+
+```text
+P2-alpha 通过，允许扩到 P2-beta。
+但三条 route 都只是候选，不允许直接进入正文生产或 runtime skill。
+```
+
+下一步按顺序执行：
+
+```text
+1. 按复盘结果回修 P2 字段。
+2. 从 L0 样本池选 P2-beta 10-15 本。
+3. 给每本分配 sample_role，必须包含反偏好和跨 route 对照。
+4. 跑 P2-beta 前 10 章快拆。
+5. P2-beta 后再做正式 route_candidate 判断。
 ```

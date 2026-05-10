@@ -70,7 +70,8 @@ P0 平台/赛道/合规假设
 
 - 新模块不能直接展开，先按 `active_now`、`always_on_gate`、`interface_now`、`parked_until_trigger`、`do_not_do_now` 归类。
 - 不只拆都市高武，也要补跨题材基础叙事逻辑样本。
-- P2-alpha 三本校准批次先验证 `schemas/chapter_evidence.yaml` 能不能产出 route_candidate；未通过不得扩到 P2-beta。
+- P2-alpha 三本校准批次已完成并产出复盘；当前进入 P2-beta 10-15 本前 10 章正式快拆。
+- P2-beta 必须继续验证 `schemas/chapter_evidence.yaml` 能否跨样本产出 route_candidate；若字段失效，先回修协议，不继续扩样本。
 - P2-alpha 优先使用官方榜单证据，必须覆盖源头/开山样本、官方榜单当前高热样本、官方榜单高武系统样本；低热“结构可拆”样本不能占 alpha。
 - 强作者、强 IP、奖项或改编标杆默认只做 `top_benchmark_observe`，不要把顶级作者势能误判成新人可执行机制。
 - 如果 P2 字段不能承载底层逻辑，先回修提取协议。

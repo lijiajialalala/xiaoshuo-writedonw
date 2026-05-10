@@ -34,6 +34,8 @@ chapter_records:
     information_reveal: ""
     payoff: ""
     state_change: ""
+    resource_power_delta: "" # 本章结束后钱、战力、能力、权限、身份、道具、情报、任务入口或关系资源有什么变化
+    visibility_legitimacy_delta: "" # 本章结束后谁重新认识主角，能力是公开/隐藏/合法/非法/被误读，主角正当性是否变化
     ending_hook: ""
     next_chapter_pressure: ""
     platform_signal: "" # 读完率 / 追读 / 付费预期 / 改编画面 / 编辑审稿点
