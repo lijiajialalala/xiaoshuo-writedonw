@@ -15,6 +15,9 @@ book_level_observation:
   secondary_promises: []
   platform_fit_note: ""
   initial_similarity_risk: ""
+  editor_gate_note: "" # 编辑视角：题材/书名/简介/卖点/开篇是否有签约或直发验证潜力
+  outline_learning_note: "" # 从前10章反推：这本书是否有第一卷/长线大纲能力
+  ai_low_quality_risk: "" # 是否有AI味、低质水文、逻辑拼凑、人物不一致、批量生产感
 
 chapter_records:
   - chapter_no: 1
@@ -32,6 +35,9 @@ chapter_records:
     ending_hook: ""
     next_chapter_pressure: ""
     platform_signal: "" # 读完率 / 追读 / 付费预期 / 改编画面 / 编辑审稿点
+    editor_review_signal: "" # 编辑会不会继续看：卖点 / 冲突 / 逻辑 / 行文 / 主线 / 人设
+    outline_signal: "" # 是否透露长期主线、第一卷方向、资源循环、未解问题
+    ai_quality_signal: "" # 是否像AI水文：空泛、重复、突兀、逻辑断裂、人物工具化
     evidence_quote_or_summary: ""
     transfer_boundary: "" # transferable_mechanism / observe_only / forbidden_shape
     risk_note: ""
@@ -48,6 +54,19 @@ chapter_motion_summary:
     reveal_or_flip: ""
     strongest_next_read_hook: ""
     weakest_link: ""
+  outline_readiness:
+    first_volume_hint: ""
+    long_term_pressure: ""
+    resource_or_relationship_cycle: ""
+    unresolved_core_questions: []
+    sustainability_risk: ""
+  editor_gate_summary:
+    title_intro_package: ""
+    opening_signing_potential: ""
+    platform_fit: ""
+    ai_or_low_quality_risk: ""
+    similarity_or_plagiarism_risk: ""
+    decision: "" # proceed / revise / stop / insufficient_evidence
 
 route_candidate_decision:
   route_candidate_name: ""

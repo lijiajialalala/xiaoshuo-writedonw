@@ -20,6 +20,7 @@
 - [docs/README.md](docs/README.md): 文档地图和当前工作流入口。
 - [docs/00_总控/00_当前总控路线图.md](docs/00_总控/00_当前总控路线图.md): 当前阶段和推进顺序。
 - [docs/00_总控/05_agent工作纪律.md](docs/00_总控/05_agent工作纪律.md): 用户例子处理、反过早收缩和自问自答纪律。
+- [docs/00_总控/06_编辑审稿门与大纲准备.md](docs/00_总控/06_编辑审稿门与大纲准备.md): 编辑视角、平台门禁、AI/相似风险和大纲学习接口。
 - [docs/00_总控/04_合规与相似风险边界.md](docs/00_总控/04_合规与相似风险边界.md): 合规、洗稿、相似风险和迁移边界。
 - [docs/30_平台研究/README.md](docs/30_平台研究/README.md): 番茄、七猫、起点投稿路径、收益机制和平台生产策略。
 - [docs/20_小说蒸馏方法/03_小说提取归纳总模型.md](docs/20_小说蒸馏方法/03_小说提取归纳总模型.md): 小说提取、归纳和生产运行包的总模型。
@@ -42,6 +43,11 @@ scripts/    后续自动化抓取、清洗、校验脚本
 src/        后续可执行流水线代码
 tests/      后续回归测试和质量验证
 ```
+
+当前可用 skill：
+
+- [.agents/skills/critical-thinking-mode/SKILL.md](.agents/skills/critical-thinking-mode/SKILL.md): 批判性追问和反过早收缩。
+- [.agents/skills/novel-editor-gate/SKILL.md](.agents/skills/novel-editor-gate/SKILL.md): 平台规则、编辑审稿、AI/相似风险和大纲准备门禁。
 
 ## 第一阶段目标
 
